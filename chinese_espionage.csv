@@ -1,0 +1,45 @@
+ioc_type,ioc_value,cluster,confidence_score,confidence_label,first_seen,description
+domain,video.truyenfuli.com,AS.website cert cluster,50,medium,2025-07-11,AS.website cert cluster. Associated with SideWalk/ScrambleCross tooling.
+ip,188.212.125.126,AS.website cert cluster,50,medium,2025-07-11,AS.website cert cluster. Associated with SideWalk/ScrambleCross tooling.
+ip,2.59.216.248,AS.website cert cluster,50,medium,2025-07-11,AS.website cert cluster. Associated with SideWalk/ScrambleCross tooling.
+ip,38.60.253.90,AS.website cert cluster,50,medium,2025-07-11,AS.website cert cluster. Shares 38.60.x.x /16 with ShadowPad clusters.
+tls-certificate,TLS Certificate — CN=AS.website (SideWalk/ScrambleCross hunting lead),AS.website cert cluster,60,medium,2025-07-11,TLS certificate hunting lead. Associated with SideWalk/ScrambleCross per Proofpoint July 2025.
+domain,cashmicrosoft.com,ShadowPad — HTML hash confirmed,70,medium-high,2026-05-14,ShadowPad C2 domain. HTML body hash confirmed.
+domain,googledrivecloud.com,ShadowPad — HTML hash confirmed,70,medium-high,2026-05-14,ShadowPad C2 domain. HTML body hash confirmed.
+domain,www.cashmicrosoft.com,ShadowPad — HTML hash confirmed,70,medium-high,2026-05-14,ShadowPad C2 domain. HTML body hash confirmed.
+domain,www.googledrivecloud.com,ShadowPad — HTML hash confirmed,70,medium-high,2026-05-14,ShadowPad C2 domain. HTML body hash confirmed.
+ip,104.238.148.158,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,139.180.211.117,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,149.104.104.76,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,149.28.128.65,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,149.28.145.214,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,149.28.159.61,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,207.148.97.65,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,38.60.250.74,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,45.77.176.85,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,64.176.229.94,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,64.176.50.187,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,64.176.65.222,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,65.20.75.136,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,65.20.76.151,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,65.20.97.249,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,80.240.16.246,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+ip,95.179.254.241,ShadowPad — HTML hash confirmed,60,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+tls-certificate,TLS Certificate — Intel Corporation Client Components Group (ShadowPad hunting lead),ShadowPad — HTML hash confirmed,50,medium,2026-05-14,ShadowPad C2 IP. HTML body hash confirmed.
+domain,rallyracingglobal.com,ShadowPad — Intel cert cluster,50,medium,2026-05-14,Intel cert cluster. Only domain resolved by 195.86.120.2.
+domain,www.rallyracingglobal.com,ShadowPad — Intel cert cluster,50,medium,2026-05-14,Intel cert cluster. Only domain resolved by 195.86.120.2.
+ip,103.140.186.81,ShadowPad — Intel cert cluster,50,medium,2026-05-14,Intel cert cluster. Self-signed Intel Corporation TLS certificate.
+ip,103.140.187.9,ShadowPad — Intel cert cluster,50,medium,2026-05-14,Intel cert cluster. Self-signed Intel Corporation TLS certificate.
+ip,139.180.137.3,ShadowPad — Intel cert cluster,50,medium,2026-05-14,Intel cert cluster. Self-signed Intel Corporation TLS certificate.
+ip,193.56.255.178,ShadowPad — Intel cert cluster,50,medium,2026-05-14,Intel cert cluster. Self-signed Intel Corporation TLS certificate.
+ip,38.60.208.77,ShadowPad — Intel cert cluster,50,medium,2026-05-14,Intel cert cluster. Shares 38.60.x.x /16 with HTML hash cluster.
+ip,38.60.255.134,ShadowPad — Intel cert cluster,50,medium,2026-05-14,Intel cert cluster. Shares 38.60.x.x /16 with HTML hash cluster.
+ip,65.20.67.90,ShadowPad — Intel cert cluster,50,medium,2026-05-14,Intel cert cluster. Self-signed Intel Corporation TLS certificate.
+ip,195.86.120.2,ShadowPad — pivot bridge,55,medium,2026-05-14,Pivot bridge. Shared moi.gov.af certificate behaviour with cashmicrosoft.com.
+domain,linux.tklolasi.com,Winnti ELF extension,85,high,2026-05-14,Winnti ELF C2 domain. Linked to confirmed samples.
+ip,106.15.148.44,Winnti ELF extension,75,medium-high,2026-05-14,Winnti ELF C2 IP. Resolved by linux.tklolasi.com for two days.
+sha256,c83e768f3020119dc44392a46f587366c3ef70659592fbafb6cf94f08676bf3b,Winnti ELF extension,85,high,2026-05-14,Confirmed Winnti ELF sample. C2: linux.tklolasi.com. Source: @TuringAlex.
+sha256,de155feb28a98a18ae7962ed321c262d80e332b646da6fe8af65d0708167faef,Winnti ELF extension,85,high,2026-05-14,Confirmed Winnti ELF sample. C2: linux.tklolasi.com. Source: @TuringAlex.
+domain,aliyunbs.com,Winnti ELF — Alibaba lookalike domains,60,medium,2026-05-14,Alibaba Cloud lookalike domain. Co-resolved on 106.15.148.44 with confirmed Winnti ELF C2.
+domain,aliyuncs.me,Winnti ELF — Alibaba lookalike domains,60,medium,2026-05-14,Alibaba Cloud lookalike domain. Co-resolved on 106.15.148.44 with confirmed Winnti ELF C2.
+domain,ayuncs.com,Winnti ELF — Alibaba lookalike domains,60,medium,2026-05-14,Alibaba Cloud lookalike domain. Co-resolved on 106.15.148.44 with confirmed Winnti ELF C2.
